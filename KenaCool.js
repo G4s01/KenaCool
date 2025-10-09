@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         KenaMobile - MNO Injecter
+// @name         KenaMobile - MNO Inject
 // @namespace    http://tampermonkey.net/
 // @version      2.0
 // @description  Aggiunge tutti gli operatori mancanti al menu a tendina e agli input hidden, garantendo la persistenza su pagine dinamiche.
@@ -31,7 +31,7 @@
         { code: "code_44", name: "OPTIMA" },
         { code: "code_47", name: "PLINTRON" },
         { code: "code_30", name: "POSTEMOBILE FULL" },
-        { code: "code_10", name: "POSTEMOBILE (clienti pre 2024)" },
+        { code: "code_10", name: "POSTEMOBILE (pre-2024)" },
         { code: "code_53", name: "SPUSU" },
         { code: "code_2", name: "TIM" },
         { code: "code_6", name: "TISCALI" },
