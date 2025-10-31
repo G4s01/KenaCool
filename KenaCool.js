@@ -17,7 +17,6 @@
   // Lista completa operatori
   const allOperators = [
       { code: "code_9", name: "1MOBILE" },
-      { code: "code_9", name: "1MOBILE" },
       { code: "code_64", name: "2APPY" },
       { code: "code_58", name: "CHINA MOBILE" },
       { code: "code_52", name: "COOP VOCE" },
@@ -209,7 +208,8 @@
     // In condizioni normali sel.created === inp.created; in caso di divergenza mostriamo quello del select.
     const createdToShow = sel.created > 0 ? sel.created : inp.created;
     if (createdToShow > 0) {
-      showToast(`${createdToShow} OPERATORI AGGIUNTI`, "success");
+      // Messaggio aggiornato con spunta all'inizio
+      showToast(`✅ ${createdToShow} OPERATORI AGGIUNTI`, "success");
     }
 
     if (DEBUG) console.log("[KenaPatch] Run:", { selectCreated: sel.created, inputsCreated: inp.created });
